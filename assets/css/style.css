@@ -781,6 +781,10 @@ body {
 	width: calc(25% - 40px);
 }
 
+.project-card .card-content .card-tag{
+  color:var(--text);
+}
+
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
