@@ -66,7 +66,11 @@
 
 	--shadow-1: 2px 0 50px hsla(0, 0%, 0%, 0.2);
 	--shadow-2: 0px 40px 60px hsla(202, 75%, 47%, 0.7);
-	--shadow-3: 0px 0px 60px hsla(202, 75%, 47%, 0.5);
+	--shadow-3: 0px 0px 60px hsla(202, 75%, 47%, 0.5); 
+
+	--shadow-4: 3px 4px 30px hsla(0, 0%, 53%, 0.1);
+	--shadow-5: 5px 3px 40px hsla(191, 100%, 17%, 0.1);
+	--shadow-6: 5px 3px 50px hsla(191, 100%, 17%, 0.4);
 
 	/**
    * transition
@@ -315,10 +319,11 @@ body {
 	padding-block: 15px;
 	z-index: 4;
 	transition: var(--transition);
+	text-align:center;
 }
 
 .header.active {
-	background-color: var(--green-blue-crayola);
+	background-color: var(--dark-blue);
 }
 
 .header .container {
@@ -328,10 +333,10 @@ body {
 	gap: 30px;
 }
 
-.logo {
-	font-family: var(--ff-oswald);
-	color: var(--white);
-	font-size: 3rem;
+
+
+.header .logo{
+	margin-top:-5.5rem;
 }
 
 .nav-open-btn {
@@ -786,87 +791,129 @@ body {
 }
 
 /*-----------------------------------*\
-  #BLOG
+  #clients
 \*-----------------------------------*/
-
-.blog :is(.section-subtitle, .section-title, .section-text) {
-	text-align: center;
+.clients .container{
+ display:grid;
+ /* grid-template-columns:1fr 1fr; */
+ place-items:center;
+/* padding-top:8rem; */
 }
 
-.blog .section-text {
-	margin-block: 20px 50px;
+.clients-details{
+	 display:grid;
+ grid-template-columns:1fr 1fr; 
+ place-items:center;
+gap:15rem;
+margin-top:5rem;
 }
 
-.blog-card .card-content {
+.client-card {
 	position: relative;
-}
-
-.blog-card .card-meta {
-	background-color: var(--prussian-blue);
-	color: var(--white);
+	padding: 30px;
 	text-align: center;
-	font-size: var(--fs-5);
-	font-family: var(--ff-oswald);
-	font-weight: var(--fw-600);
-	line-height: 1.5;
-	max-width: max-content;
-	margin-inline: auto 20px;
-	margin-block: -80px 20px;
-	padding: 20px 25px;
-	box-shadow: -8px 8px 0 var(--dark-orange);
-}
-
-.blog-card .card-meta .span {
-	color: var(--dark-orange);
-	font-size: var(--fs-3);
-	font-weight: var(--fw-700);
-	line-height: 0.75;
-}
-
-.blog-card .card-text {
-	margin-block: 15px;
-}
-
-/*-----------------------------------*\
-  #NEWSLETTER
-\*-----------------------------------*/
-
-.newsletter {
-	background-color: var(--dark-orange);
-}
-
-.newsletter .img-holder {
-	background-color: transparent;
-	margin-block-end: 20px;
-	max-width: max-content;
-}
-
-.newsletter .section-title {
-	margin-block-end: 20px;
-}
-
-.email-field {
-	background-color: var(--white);
-	color: var(--eerie-black);
-	font-size: var(--fs-9);
-	height: 65px;
-	padding-inline: 20px;
-	margin-block-end: 10px;
-	outline: none;
+	border: 1px solid var(--alice-blue);
 	transition: var(--transition);
 }
 
-.email-field:focus {
-	box-shadow: 0 2px 2px hsla(0, 0%, 0%, 0.4);
+.client-card:is(:hover, :focus-within) {
+	box-shadow: var(--shadow-1);
 }
 
-.newsletter-btn {
-	background-color: var(--prussian-blue);
-	color: var(--white);
+.client-card::before {
+	content: var(--card-number);
+	color: var(--cultured-1);
 	font-family: var(--ff-oswald);
+	font-size: var(--fs-1);
 	font-weight: var(--fw-700);
-	padding: 8px 20px;
+	line-height: 1;
+	transition: var(--transition);
 }
+
+.client-card:is(:hover, :focus-within)::before {
+	color: var(--dark-orange);
+}
+
+/*-----------------------------------*\
+  #contact
+\*-----------------------------------*/
+
+.contact {
+	background-color: var(--dark-orange);
+  height:60vh;
+}
+
+.contact .container{
+ display:grid;
+ place-items:center;
+padding-top:8rem;
+}
+
+.contact-content .section-title {
+	margin-block-end: 20px;
+}
+
+.contact-content-details{
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 6rem;
+	margin-top: 2rem;
+
+}
+
+.contact-item-list h3 {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	color: black;
+}
+
+.contact-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+	transition: var(--transition);
+}
+
+.contact-list .contact-item {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.contact-list .contact-item a {
+	color: black;
+	transition: var(--transition);
+}
+
+.contact-list .contact-item ion-icon {
+	color: black;
+	transition: var(--transition);
+}
+
+.contact-list .contact-item a:hover {
+	color: var(--dark-blue);
+}
+
+.contact-content-details .vertical-line{
+
+  border-right:5px solid black;
+  height:50px;
+   margin-top:3rem; 
+  
+}
+
+
+
+
+
+
+
 
 /*-----------------------------------*\
   #FOOTER
