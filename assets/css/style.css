@@ -2,9 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
 
 
 
@@ -19,7 +16,11 @@
   /**
    * colors
    */
-
+--purple:#8976af;
+--light-purple:#e1dee7;
+--powder-blue:#adc4ed;
+--dark-blue:#4e3089;
+ --text:#555555;
   --green-blue-crayola: hsl(202, 75%, 47%);
   --prussian-blue: hsl(202, 72%, 15%);
   --eerie-black: hsl(210, 11%, 15%);
@@ -322,7 +323,8 @@ body {
   max-width: 300px;
   width: 100%;
   height: 100%;
-  background-color: var(--white);
+  /* background-color: var(--white); */
+  background-color: black;
   box-shadow: var(--shadow-1);
   z-index: 3;
   visibility: hidden;
