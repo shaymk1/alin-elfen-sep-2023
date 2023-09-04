@@ -981,10 +981,8 @@ body {
 	gap: 40px;
 }
 
-.footer .logo {
-	color: var(--prussian-blue);
-	font-weight: var(--fw-800);
-	font-size: 3.2rem;
+.footer .footer-brand .logo {
+	width:20rem;
 }
 
 .footer-text {
