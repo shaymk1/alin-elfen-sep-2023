@@ -646,23 +646,14 @@ body {
 	text-align: center;
 }
 
-.service .section-title {
+.feature .section-title {
 	margin-block-end: 20px;
 }
 
-.service .section-text {
+.feature .section-text {
 	margin-block-end: 50px;
 }
-/* repeat(auto-fill, minmax(80px, 1fr)); */
 
-/* .feature-list.grid-list{
-	display:grid;
-	grid-template-columns:1fr 1fr 1fr;
-	
-	height: 100%;
-	padding:0 3rem;
-	
-} */
 
 .feature-list.grid-list {
 	display: grid;
@@ -678,9 +669,8 @@ body {
 	position: relative;
 	padding: 30px;
 	text-align: center;
-	background: var(--light-purple);
-	border: 1px solid var(--alice-blue);
-
+	background: white;
+	border: 1px solid var(--dark-blue);
 	height: 100%;
 	transition: var(--transition);
 }
@@ -713,6 +703,7 @@ body {
 	border-radius: 50%;
 	margin-inline: auto;
 	margin-block-end: 30px;
+	padding-top:1rem;
 }
 
 .feature-card .card-text {
@@ -855,6 +846,12 @@ body {
 	gap: 5rem;
 	margin-top: 8rem;
 }
+.clients .section-title {
+	margin-block-end: 20px;
+}
+.clients .section-text {
+	margin-block-end: 50px;
+}
 
 .client-card {
 	position: relative;
@@ -891,18 +888,33 @@ body {
 
 .contact {
 	background-color: var(--dark-orange);
-	height: 110vh;
+	height: 125vh;
 }
 
 .contact .container {
 	display: grid;
 	place-items: center;
-	padding-top: 8rem;
+	padding-top: 3rem;
 }
 
 .contact .container > last-child {
 	margin-bottom: 4rem;
 }
+
+.contact  .section-title {
+	margin-block-end: 20px;
+	
+}
+
+.contact  .section-subtitle {
+	color: var(--prussian-blue);
+	
+}
+.contact .section-text {
+	margin-block-end: 50px;
+}
+
+
 
 .contact-content-details {
 	display: flex;
@@ -910,25 +922,18 @@ body {
 	justify-content: center;
 	align-items: center;
 	gap: 1rem;
-	margin-top: 5rem;
+	/* margin-top: 1rem; */
 }
 .contact-content .section-title {
 	margin-block-end: 20px;
 }
 
-/* .contact-content-details {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	gap: 6rem;
-	margin-top: 2rem;
-} */
+
 
 .contact-item-list h3 {
 	font-size: 2rem;
 	margin-bottom: 2rem;
-	color: black;
+	color: var(--prussian-blue);
 }
 
 .contact-list {
