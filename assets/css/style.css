@@ -335,11 +335,17 @@ body {
 	gap: 30px;
 }
 
-.logo {
-	font-family: var(--ff-oswald);
-	color: var(--white);
-	font-size: 3rem;
+.header .logo  img{
+	width: 20rem;
+	overflow: hidden;
+	margin-top:-5.5rem;
+	
 }
+
+.navbar-top .logo{
+	margin-top:6.6rem;
+}
+
 
 .nav-open-btn {
 	color: var(--white);
@@ -386,6 +392,7 @@ body {
 
 .nav-close-btn {
 	font-size: 25px;
+	margin-bottom:1.5rem;
 }
 
 .nav-close-btn ion-icon {
