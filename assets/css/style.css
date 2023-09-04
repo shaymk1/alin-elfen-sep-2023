@@ -335,17 +335,15 @@ body {
 	gap: 30px;
 }
 
-.header .logo  img{
+.header .logo img {
 	width: 20rem;
 	overflow: hidden;
-	margin-top:-5.5rem;
-	
+	margin-top: -5.5rem;
 }
 
-.navbar-top .logo{
-	margin-top:6.6rem;
+.navbar-top .logo {
+	margin-top: 6.6rem;
 }
-
 
 .nav-open-btn {
 	color: var(--white);
@@ -392,7 +390,7 @@ body {
 
 .nav-close-btn {
 	font-size: 25px;
-	margin-bottom:1.5rem;
+	margin-bottom: 1.5rem;
 }
 
 .nav-close-btn ion-icon {
@@ -654,7 +652,6 @@ body {
 	margin-block-end: 50px;
 }
 
-
 .feature-list.grid-list {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -703,7 +700,7 @@ body {
 	border-radius: 50%;
 	margin-inline: auto;
 	margin-block-end: 30px;
-	padding-top:1rem;
+	padding-top: 1rem;
 }
 
 .feature-card .card-text {
@@ -901,20 +898,16 @@ body {
 	margin-bottom: 4rem;
 }
 
-.contact  .section-title {
+.contact .section-title {
 	margin-block-end: 20px;
-	
 }
 
-.contact  .section-subtitle {
+.contact .section-subtitle {
 	color: var(--prussian-blue);
-	
 }
 .contact .section-text {
 	margin-block-end: 50px;
 }
-
-
 
 .contact-content-details {
 	display: flex;
@@ -927,8 +920,6 @@ body {
 .contact-content .section-title {
 	margin-block-end: 20px;
 }
-
-
 
 .contact-item-list h3 {
 	font-size: 2rem;
@@ -1096,33 +1087,33 @@ body {
 		grid-template-columns: 1fr;
 	}
 
-	.contact-content-details{
-		display:flex;
-		flex-direction:column;
-		padding-left:2rem;
-		padding-right:2rem;
-		border:none;
+	.contact-content-details {
+		display: flex;
+		flex-direction: column;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		border: none;
 	}
 
 	.feature-list.grid-list {
 		display: grid;
 		grid-template-columns: 1fr;
 		place-items: center;
-		margin-top:3rem;
+		margin-top: 3rem;
 	}
 
-	.contact-list{
-display:flex;
-flex-direction:column;
+	.contact-list {
+		display: flex;
+		flex-direction: column;
 	}
 
-	.contact-list .contact-item{
-		padding-bottom:2rem;
-		margin-bottom:2rem;
+	.contact-list .contact-item {
+		padding-bottom: 2rem;
+		margin-bottom: 2rem;
 	}
 
-	.contact-item-list h3{
-		margin-top:5rem;
+	.contact-item-list h3 {
+		margin-top: 5rem;
 	}
 }
 
@@ -1186,7 +1177,6 @@ flex-direction:column;
 	.about .abs-img-1 {
 		right: -200px;
 	}
-
 }
 
 /**
@@ -1274,8 +1264,6 @@ flex-direction:column;
 	.contact .container {
 		margin: 0 auto;
 	}
-
-	
 }
 
 /**
@@ -1346,18 +1334,12 @@ flex-direction:column;
    * NEWSLETTER
    */
 
-
-	
-
-	
 	/**
    * contact
    */
-.contact-item-list h3{
-		margin-top:1rem;
+	.contact-item-list h3 {
+		margin-top: 1rem;
 	}
-
-
 
 	/**
    * FOOTER
