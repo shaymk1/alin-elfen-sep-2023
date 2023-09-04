@@ -57,101 +57,96 @@
   -->
 
 		<header class="header" data-header>
+			<!-- desk-top menu -->
 			<div class="container">
-				<div class="logo">
-					<a href="#hero" class="">
-						<img
-							src="./assets/images/Logo-white.png"
-							alt="logo image"
-							width="200px"
-							height="180px"
-						/>
-					</a>
-				</div>
 
-				<nav class="navbar" data-navbar>
-					<div class="navbar-top">
-						<div class="logo">
-							<a href="#hero" class="logo">
-								<img
-									src="./assets/images/Logo-png.png"
-									alt="logo image"
-									width="200px"
-									height="180px"
-								/>
-							</a>
-						</div>
-
-						<button
-							class="nav-close-btn"
-							aria-label="close menu"
-							data-nav-toggler
-						>
-							<ion-icon name="close-outline"></ion-icon>
-						</button>
+    	<div class="logo">
+						<a href="#hero" class="menu-link">
+							<img src="./asssets/images/logo-png" alt="logo image" />
+						</a>
 					</div>
 
-					<ul class="navbar-list">
-						<li class="navbar-item">
-							<a href="#home" class="navbar-link" data-nav-link>
-								<span>Home</span>
+      <nav class="navbar" data-navbar>
 
-								<ion-icon name="chevron-forward"></ion-icon>
-							</a>
-						</li>
-
-						<li class="navbar-item">
-							<a href="#about" class="navbar-link" data-nav-link>
-								<span>About</span>
-
-								<ion-icon name="chevron-forward"></ion-icon>
-							</a>
-						</li>
-
-						<li class="navbar-item">
-							<a href="#services" class="navbar-link" data-nav-link>
-								<span>Services</span>
-
-								<ion-icon name="chevron-forward"></ion-icon>
-							</a>
-						</li>
-
-						<li class="navbar-item">
-							<a href="#clients" class="navbar-link" data-nav-link>
-								<span>Clients</span>
-
-								<ion-icon name="chevron-forward"></ion-icon>
-							</a>
-						</li>
-
-						<li class="navbar-item">
-							<a href="#contact" class="navbar-link" data-nav-link>
-								<span>Contact</span>
-
-								<ion-icon name="chevron-forward"></ion-icon>
-							</a>
-						</li>
-					</ul>
-				</nav>
-
-				<div class="header-contact">
-					<div>
-						<p class="contact-label">Call Us</p>
-
-						<a href="tel:+27829034541" class="contact-number">+27829034541</a>
+        <div class="navbar-top">
+          <div class="logo">
+						<a href="#hero" class="menu-link">
+							<img src="./asssets/images/logo-png" alt="logo image" />
+						</a>
 					</div>
 
-					<div class="contact-icon">
-						<ion-icon name="call-outline"></ion-icon>
-					</div>
-				</div>
+          <button class="nav-close-btn" aria-label="Close menu" data-nav-toggler>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
 
-				<button class="nav-open-btn" aria-label="Open menu" data-nav-toggler>
-					<ion-icon name="menu-outline"></ion-icon>
-				</button>
+        <ul class="navbar-list">
 
-				<div class="overlay" data-nav-toggler data-overlay></div>
-			</div>
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>
+              <span>Home</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>
+              <span>About</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-nav-link>
+              <span>Service</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#clients" class="navbar-link" data-nav-link>
+              <span>Clients</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>
+              <span>Contact</span>
+
+              <ion-icon name="chevron-forward"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-contact">
+
+        <div>
+          <p class="contact-label">Call Us</p>
+
+          <a href="tel:+27829034541" class="contact-number">+2782 903 4541</a>
+        </div>
+
+        <div class="contact-icon">
+          <ion-icon name="call-outline"></ion-icon>
+        </div>
+
+      </div>
+
+      <button class="nav-open-btn" aria-label="Open menu" data-nav-toggler>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
 		</header>
 
 		<main>
@@ -559,7 +554,7 @@
 
 				<section class="section feature" aria-label="feature">
 					<div class="container">
-									<p class="section-subtitle">Quotations</p>
+					    <p class="section-subtitle">Quotations</p>
 
 						<h2 class="h2 section-title">Contact us for a free quotation</h2>
 
@@ -631,6 +626,27 @@
 									</p>
 								</div>
 							</li>
+
+							<li>
+								<div class="feature-card" style="--card-number: '03'">
+									<div class="card-icon">
+										<img
+											src="./assets/images/business-outline.svg"
+											width="93"
+											height="93"
+											alt=""
+										/>
+									</div>
+
+									<h3 class="h3 card-title">Care And Professionalism</h3>
+
+									<p class="card-text">
+										We do care about our clients and we treat everyone with
+										utmost care and professionalism.
+									</p>
+								</div>
+							</li>
+						
 						</ul>
 						<div class="features-cta">
 						<a href="#contact" class="btn">Contact Us</a>
@@ -648,7 +664,7 @@
 						<h2 class="h2 section-title">Featured Clients</h2>
 
 						<p class="section-text">Here are some of our clients.</p>
-						<div class="clients-details" > 
+						<div class="clients-list grid-list " > 
 						
 						<!-- client-1 -->
 							<div class="client-card">
@@ -770,9 +786,7 @@
 					</div>
 				</section>
 
-				<!-- 
-        - #BLOG
-      -->
+	
 
 				<!-- 
         - #Contact
@@ -783,7 +797,7 @@
 						<h2 class="h2 section-title">Contact Us</h2>
 						<div class="contact-content">
 							<!-- icons -->
-							<div class="contact-content-details">
+							<div class="contact-content-details ">
 								<div class="contact-item-list">
 									<h3>Thys</h3>
 									<ul class="contact-list">
@@ -794,7 +808,7 @@
 												class="contact-icon"
 											></ion-icon
 											><a href="tel:+27829034541" class="contact-link"
-												>+27829034541</a
+												>+2782 903 4541</a
 											>
 										</li>
 										<li class="contact-item">
@@ -809,7 +823,7 @@
 										</li>
 									</ul>
 								</div>
-								<span class="vertical-line"></span>
+								<div class="vertical-line"></div>
 								<div class="contact-item-list">
 									<h3>Attie</h3>
 									<ul class="contact-list">
@@ -820,7 +834,7 @@
 												class="contact-icon"
 											></ion-icon
 											><a href="tel:+27825784900" class="contact-link"
-												>+27825784900</a
+												>+2782 578 4900</a
 											>
 										</li>
 										<li class="contact-item">
