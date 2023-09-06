@@ -336,13 +336,13 @@ body {
 }
 
 .header .logo img {
-	width: 20rem;
+	/* width: 20rem;
 	overflow: hidden;
-	margin-top: -5.5rem;
+	margin-top: -5.5rem; */
 }
 
 .navbar-top .logo {
-	margin-top: 6.6rem;
+	/* margin-top: 6.6rem; */
 }
 
 .nav-open-btn {
@@ -390,11 +390,15 @@ body {
 
 .nav-close-btn {
 	font-size: 25px;
-	margin-bottom: 1.5rem;
+	/* margin-bottom: 1.5rem; */
 }
 
 .nav-close-btn ion-icon {
 	--ionicon-stroke-width: 40px;
+}
+
+.nav-close-btn:hover {
+	color:var(--dark-orange);
 }
 
 .navbar-item:not(:last-child) {
@@ -411,7 +415,9 @@ body {
 }
 
 .navbar-link:is(:hover, :focus) {
-	background-color: var(--cultured-1);
+	/* background-color: var(--cultured-1); */
+	color:var(--dark-orange);
+
 }
 
 .overlay {
@@ -982,12 +988,15 @@ font-size:2.5rem;
 
 .footer-top {
 	display: grid;
-	gap: 40px;
+	gap: 60px;
 }
 
-.footer .footer-brand .logo {
-	width:20rem;
+.footer .footer-brand  {
+	display:grid;
+	
 }
+
+
 
 .footer-text {
 	margin-block: 10px 30px;
@@ -995,19 +1004,25 @@ font-size:2.5rem;
 
 .social-list {
 	display: flex;
-	gap: 10px;
+	gap: 4rem;
+}
+
+.social-list-item{
+	display: flex;
+	flex-direction:row;
+	gap:1rem;
 }
 
 .social-link {
-	background-color: var(--indigo-dye);
-	color: var(--white);
-	font-size: 20px;
-	padding: 12px;
+	/* background-color: var(--indigo-dye); */
+	color: var(--prussian-blue);
+	font-size: 1.5rem;
+	/* padding: 12px; */
 	transition: var(--transition);
 }
 
 .social-link:is(:hover, :focus) {
-	background-color: var(--prussian-blue);
+	color: var(--dark-orange);
 }
 
 .footer-list-title {
@@ -1156,6 +1171,10 @@ font-size:2.5rem;
 		font-size: var(--fs-6);
 		font-weight: var(--fw-600);
 		letter-spacing: 1px;
+	}
+
+	.header .contact-number:hover{
+		color:var(--dark-orange);
 	}
 
 	.header .contact-icon {
