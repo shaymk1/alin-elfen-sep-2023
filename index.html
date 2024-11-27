@@ -50,6 +50,8 @@
 			rel="stylesheet"
 		/>
 
+		
+
 		<!-- 
     - preload images
   -->
@@ -815,7 +817,7 @@
 												class="contact-icon"
 											></ion-icon
 											><a href="mailto:chrema16@gmail.com" class="contact-link"
-												>chrema16@gmail.com</a
+												>thys@aeee.co.za</a
 											>
 										</li>
 									</ul>
@@ -828,24 +830,52 @@
 											<ion-icon
 												name="call"
 												aria-hidden="true"
-												class="contact-icon"
-											></ion-icon
-											><a href="tel:+27825784900" class="contact-link"
-												>+2782 578 4900</a
-											>
+												class="contact-icon">
+											</ion-icon><a href="tel:+27825784900" class="contact-link"
+												>+2782 578 4900</a>
 										</li>
 										<li class="contact-item">
 											<ion-icon
 												name="mail"
 												aria-hidden="true"
 												class="contact-icon"
-											></ion-icon
-											><a href="mailto:attie@chrema.co.za" class="contact-link"
-												>attie@chrema.co.za</a
-											>
+											></ion-icon><a href="mailto:attie@chrema.co.za" class="contact-link"
+												>attie@aeee.co.za</a>
 										</li>
 									</ul>
 								</div>
+								<div class="vertical-line"></div>
+								<div class="contact-item-list">
+									<div class="map-container" >
+										<h3>Location</h3>
+										<ul class="contact-list">
+											<li class="contact-item">
+												<p>A/H Plot 23B, Road 4, Beckedan, Krugersdorp</p>
+												<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.319041296667!2d27.69007001979045!3d-26.08850219505874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1sen!2sza!4v1732718851269!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+												
+											</li>
+
+											
+											
+										</ul>
+								   </div>
+								</div>
+
+								<div class="vertical-line"></div>
+								<div class="contact-item-list">
+									<div class="map-container" >
+										<h3>Map</h3>
+										<ul class="contact-list">
+
+											<li class="contact-item" >
+												<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3583.319041296667!2d27.69007001979045!3d-26.08850219505874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1sen!2sza!4v1732718851269!5m2!1sen!2sza" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+											</li>
+											
+										</ul>
+								   </div>
+								</div>
+								
+								
 							</div>
 						</div>
 					</div>
@@ -879,19 +909,21 @@
 												class="footer-icon"
 											></ion-icon
 											><a href="tel:+27829034541" class="social-link"
-												>+27829034541</a
+												>+2782 903 4541</a
 											>
-										</li>
-										<li class="social-list-item">
+							</li>
+							<li class="social-list-item">
 											<ion-icon
 												name="mail"
 												aria-hidden="true"
 												class="footer-icon"
 											></ion-icon
 											><a href="mailto:chrema16@gmail.com" class="social-link"
-												>chrema16@gmail.com</a
+												>thys@aeee.co.za</a
 											>
-										</li>
+							</li>
+
+						
 
 <!-- 
 							<li>
@@ -1018,21 +1050,33 @@
 			<ion-icon name="chevron-up"></ion-icon>
 		</a>
 
-		<!-- 
-    - custom js link
-  -->
+			
+	<!-- -------------- ---------- ----------------------
+    - scripts
+  ----------------------------------------------------->
+
+			<!-- 
+			- google map js
+		-->
+		<script
+			src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&loading=async&libraries=maps&v=beta" defer>
+		</script>
+
+				<!-- 
+			- custom js link
+		-->
 		<script src="./assets/js/script.js" defer></script>
 
-		<!-- 
-    - ionicon link
-  -->
+				<!-- 
+			- ionicon link
+		-->
 		<script
-			type="module"
-			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-		></script>
+					type="module"
+					src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+		</script>
 		<script
-			nomodule
-			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-		></script>
+					nomodule
+					src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+		</script>
 	</body>
 </html>
